@@ -10,7 +10,7 @@ export default function DealsAndOffers(){
     const [ currentPage, setCurrentPage ] = useState(1)
 
     useEffect(() => {
-        // https://dummyjson.com/users
+        // https://dummyjson.com/users hey
         // https://jsonplaceholder.typicode.com/todos
         axios.get("https://dummyjson.com/users")
         .then((res)=>{
